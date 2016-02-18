@@ -50,5 +50,5 @@ const v2 = version(v1) // foo_v002.txt
 const parse = require('version-filename/parse')
 const parsed = parse('foo_v001.txt')
 parsed.basename // foo
-parsed.version // 001
+parsed.version // 1
 ```

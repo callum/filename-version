@@ -7,7 +7,7 @@
     "version": "bin/cmd.js"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 const test = require('tape')
-const version = require('./')
+const version = require('../')
 
 test('version', function (t) {
   t.plan(6)
