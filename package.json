@@ -1,0 +1,37 @@
+{
+  "name": "version-filename",
+  "version": "0.0.0",
+  "description": "Filename versioning",
+  "main": "index.js",
+  "bin": {
+    "version": "bin/cmd.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callum/version-filename.git"
+  },
+  "keywords": [
+    "filename",
+    "version",
+    "bump",
+    "filesystem",
+    "archive"
+  ],
+  "author": "Callum Jefferies <callum@callumj.uk> (http://callumj.uk/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callum/version-filename/issues"
+  },
+  "homepage": "https://github.com/callum/version-filename#readme",
+  "devDependencies": {
+    "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "defined": "^1.0.0",
+    "yargs": "^4.1.0",
+    "zpad": "^0.5.0"
+  }
+}
